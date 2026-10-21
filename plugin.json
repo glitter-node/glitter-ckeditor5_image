@@ -1,0 +1,22 @@
+{
+    "identifier": "glitter-ckeditor5_image",
+    "vendor": "Glitter.kr",
+    "name": {
+        "ko": "Glitter CKEditor5 Image",
+        "en": "Glitter CKEditor5 Image"
+    },
+    "version": "0.1.0",
+    "license": "MIT",
+    "github_url": "https://github.com/glitter-node/glitter-ckeditor5_image",
+    "g7_version": ">=7.0.10",
+    "description": {
+        "ko": "에디터 업로드 이미지의 변환본 생성과 응답 최적화를 제공합니다.",
+        "en": "Builds image variants and optimizes responses for editor-uploaded images."
+    },
+    "dependencies": {
+        "modules": {},
+        "plugins": {
+            "sirsoft-ckeditor5": ">=1.0.3"
+        }
+    }
+}

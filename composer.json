@@ -1,0 +1,23 @@
+{
+    "name": "plugins/glitter-ckeditor5_image",
+    "description": "Serves editor-uploaded body images with independently stored resized variants and response rewriting on Gnuboard7.",
+    "type": "library",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glitter.kr"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\Glitter\\Ckeditor5Image\\": [
+                "src/",
+                "./"
+            ]
+        }
+    }
+}
